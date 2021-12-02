@@ -1,0 +1,24 @@
+<scheduledscript scriptid="customscript_fc_repodemo_hello">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Repo Demo Hello</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/repoDemo/fc_sc_hello.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_fc_repodemo_hello_manual">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Repo Demo Hello - Manual</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2021-12-03</startdate>
+          <starttime>02:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

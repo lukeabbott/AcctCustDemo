@@ -1,0 +1,8 @@
+{
+    "semistandard": {
+        "globals": [
+            "define",
+            "log"
+        ]
+    }
+}
